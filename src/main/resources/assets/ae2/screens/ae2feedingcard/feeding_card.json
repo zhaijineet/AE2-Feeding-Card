@@ -1,0 +1,37 @@
+{
+  "includes": [
+    "../common/common.json",
+    "../common/player_inventory.json"
+  ],
+  "helpTopic": "ae2feedingcard:feeding_card.md",
+  "background": {
+    "texture": "ae2feedingcard:textures/guis/feeding_card.png",
+    "srcRect": [0, 0, 176, 236]
+  },
+  "slots": {
+    "CONFIG": {
+      "left": 8,
+      "top": 29,
+      "grid": "BREAK_AFTER_9COLS"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2feedingcard.feeding_card"
+      },
+      "position": {
+        "left": 8,
+        "top": 7
+      }
+    }
+  },
+  "widgets": {
+    "back": {
+      "left": 152,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    }
+  }
+}

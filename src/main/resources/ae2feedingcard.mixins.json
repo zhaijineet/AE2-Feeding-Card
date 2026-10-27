@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.zhaiji.ae2feedingcard.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "ae2feedingcard.refmap.json",
+  "mixins": [
+    "LivingEntityEatSoundMixin",
+    "PlayerEatSoundMixin"
+  ],
+  "client": [
+    "MEStorageScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

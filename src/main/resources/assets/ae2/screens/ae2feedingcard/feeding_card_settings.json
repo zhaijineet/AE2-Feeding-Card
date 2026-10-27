@@ -1,0 +1,35 @@
+{
+  "includes": [
+    "../common/common.json"
+  ],
+  "helpTopic": "ae2feedingcard:feeding_card.md#settings",
+  "background": {
+    "texture": "ae2feedingcard:textures/guis/feeding_card_settings.png",
+    "srcRect": [0, 0, 200, 216]
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2feedingcard.feeding_card_settings"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "back": {
+      "left": 176,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    },
+    "scrollbar": {
+      "left": 180,
+      "top": 21,
+      "width": 12,
+      "height": 184
+    }
+  }
+}

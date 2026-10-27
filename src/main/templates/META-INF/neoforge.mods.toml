@@ -1,0 +1,61 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="${loader_version_range}" #mandatory
+
+license="${mod_license}"
+
+[[mods]] #mandatory
+
+modId="${mod_id}" #mandatory
+
+version="${mod_version}" #mandatory
+
+displayName="${mod_name}" #mandatory
+
+logoFile="logo.png"
+
+authors="zhaiji"
+
+description='''Adds a feeding card upgrade to wireless terminals. It feeds you from your ME network.'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+[[dependencies.${mod_id}]] #optional
+    modId="neoforge" #mandatory
+    type="required" #mandatory
+    versionRange="[${neo_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required" #mandatory
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="ae2"
+    type="required" #mandatory
+    versionRange="[${ae2_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="solcarrot"
+    type="optional" #mandatory
+    versionRange="[${solcarrot_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="curios"
+    type="optional" #mandatory
+    versionRange="[${curios_version},)" #mandatory
+    ordering="NONE"
+    side="BOTH"

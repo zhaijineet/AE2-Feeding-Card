@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ae2feedingcard:item/feeding_card"
+  }
+}
